@@ -1,0 +1,55 @@
+.nav {
+
+    margin: auto;
+    padding: 10px 20px;
+    /* border-bottom-left-radius: 20px; */
+    /* border-bottom-right-radius: 20px; */
+    z-index: 100;
+    /* position: sticky; */
+    /* top: 0%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 99%; */
+    height: auto;
+    /* box-shadow: var(--outset); */
+    background-color: rgb(39 39 39);
+    color: var(--purple);
+}
+
+.nav h1 {
+    margin: 0%;
+}
+
+.setting {
+    height: -webkit-fill-available;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.setting img {
+    width: 60px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.login {
+
+    background: var(--purple);
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: var(--white);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.login:hover {
+    background: var(--darkpurple);
+}
+
+.login h4 {
+    margin: 0%;
+    font-weight: 100;
+}
